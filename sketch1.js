@@ -82,7 +82,8 @@ translate(mouseX,mouseY)
     //rect(points[i].x,points[i].y,10)
    line(points[i].x,points[i].y,points[i+1].x,points[i+1].y)
  } 
- angle=angle+30 //每畫圖一次就要調整角度+
+ angle=angle+10 //每畫圖一次就要調整角度+
 }
 pop()
+
 
